@@ -4,10 +4,13 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// Js i s just putting our App inside of js root
+const root = ReactDOM.createRoot(document.getElementById('root'));  //grabbing the element from html by the id=root 
 root.render(
   <React.StrictMode>
-    <App />
+    {/* Store info in here to render on page */}
+    <App />     
   </React.StrictMode>
 );
 
